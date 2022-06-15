@@ -1,0 +1,8 @@
+.loader_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #80ffd4;
+    height: 100vh;
+}

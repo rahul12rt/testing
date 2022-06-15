@@ -1,0 +1,102 @@
+.signin-wrapper{
+    background-color: black;
+    height: 100vh;
+    background-image: linear-gradient(to top , rgba(0, 0, 0, 0.8) , rgba(0, 0, 1, 0.598)), url(../../Assets/Search-8jpg.jpg);
+}    
+.Form_container{
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.signin{
+    background-image:url(../../Assets/Search-8jpg.jpg);
+    height: 40vh;
+    background-position: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.signin-content{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.signin-title{
+    color: white;
+    font-size: 24px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.signin_form{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.input_value{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.signin_button{
+    background-color: aquamarine;
+    box-shadow: 1px 1px 60px aquamarine;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 220px;
+    border: none;
+    transition: transform 450ms;
+}
+.signin-contents{
+    color: white;
+    margin-bottom: 20px;
+}
+.Sign_up{
+    font-size: 15px;
+    color:crimson;
+    cursor: pointer;  
+}
+.signin_button:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.Alien{
+    color: black;
+    -webkit-text-stroke: 1px rgb(255, 254, 254);
+    font-size: 50px;
+}
+.form_error,.form_error_email{
+    color: red;
+    font-size: 12px;
+    display: none;
+    margin-top: 7px;
+}
+.form_e{
+    font-size: 11px;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 20px rgb(255, 0, 0) ;
+    padding: 5px 8px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;   
+}
+.success_message{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 8);
+    padding: 6px 7px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: bold;
+    box-shadow: 1px 1px 25px greenyellow;
+}
+@media only screen and (max-width: 923px){
+    .signin-wrappers{
+        background-color: black;
+    }
+}

@@ -1,0 +1,46 @@
+.row{
+    margin-left: 20px;
+}
+.row h1{
+    margin-left: 16px;
+    color: white;
+}
+
+.row_container{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px; 
+}
+.row_container::-webkit-scrollbar{
+    display: none;
+}
+.row-button{
+     margin:20px 0px 0px 0px;
+     background-color: black;
+     border: 1px solid white;
+     color: white;
+     padding: 10px 20px;
+     border-radius: 10px;
+     font-weight: bold;
+     transition: transform 450ms;
+     text-decoration: none;
+}
+
+.row-button:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-decoration:wavy;
+}
+
+.row_poster{
+    object-fit: contain;
+    width:200px;
+    margin-right: 10px;
+}
+.row_posterr{
+    height: 400px;
+    
+}

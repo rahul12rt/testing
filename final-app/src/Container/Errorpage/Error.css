@@ -1,0 +1,15 @@
+.Content, h5{
+    color: white;
+    text-align: center;
+}
+.Error-image{
+    max-width: 236px;
+    
+}
+.error-paragraph{
+    margin-bottom: 50px;
+}
+.error_wrapper{
+    height: 80vh;
+    text-align: center;
+}

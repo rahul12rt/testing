@@ -1,0 +1,118 @@
+.navbar{
+    background-color:black;
+
+}
+.movie-content{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    gap:5rem;
+    width: 60%;
+    margin: auto;
+    height: 90vh;
+    align-items: center;
+}
+.movie-title{
+    font-size: 40px;
+    color: white;
+}
+.movie-image{
+    object-fit: contain;
+     height: 500px;
+     border: 2px solid aquamarine;
+     border-radius: 20px;
+     
+}
+.movie-data{
+    width: 100%;
+    background-color:black;
+}
+.movie-description{
+    color: white;
+}
+.tagline{
+    background-color:aquamarine;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 65px aquamarine;
+}
+.movie-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Movie-deatailes-button{
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+    box-shadow: 1px 1px 70px red;
+    
+}
+
+@media only screen and (max-width: 1445px) {
+     
+    .movie-title{
+        font-size: 25px;
+        color: white;
+    }
+    .movie-description{
+        width: 100%;
+    }
+    .tagline{
+        font-size: 14px;
+        width: 234px;
+        text-align: start;
+    }
+    .movie-overview{
+        font-size: 12px;
+    }
+    .movie-content{
+        gap:2rem;
+        width: 70%;
+        margin: auto;
+        height: 90vh;
+        align-items: center;
+    }
+    .movie-details h4{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 669px){
+    .movie-content{
+        display: inline;
+        width: 100%;
+        margin: 30px;
+    }
+    .movie-image{
+        margin: auto;
+        width: 100%;
+        border: none; 
+    }
+    .movie-description {
+        text-align: center;
+    }
+    .tagline{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    .movie-title{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    .movie-overview{
+        font-size: 10px;
+        margin: 0px 20px;
+    }
+    .Movie-deatailes-button{
+        margin: auto;
+
+    }
+
+}
