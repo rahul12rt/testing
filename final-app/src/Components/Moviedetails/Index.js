@@ -26,7 +26,6 @@ function Moviedetails() {
 
   return (
     <>
-      {/* <h1>rahul</h1> */}
       <div className="navbar">
         <Navbar />
       </div>
