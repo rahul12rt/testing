@@ -29,9 +29,6 @@ function Moviedetails() {
       <div className="navbar">
         <Navbar />
       </div>
-      <div className="navbar">
-        <Navbar />
-      </div>
 
       <div className="movie-data">
         <div className="movie-content">
